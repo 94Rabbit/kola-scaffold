@@ -18,11 +18,13 @@
   },
   "homepage": "https://github.com/LhLoveZgg/kola-scaffold#readme",
   "bin": {
-    "kolar": "./bin/main.js"
+    "kola": "./bin/main.js"
   },
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^7.2.0",
-    "inquirer": "^8.0.0"
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0"
   }
 }
