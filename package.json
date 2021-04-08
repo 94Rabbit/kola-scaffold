@@ -1,0 +1,28 @@
+{
+  "name": "kola-scaffold",
+  "version": "1.0.0",
+  "description": "一个脚手架",
+  "main": "./bin/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LhLoveZgg/kola-scaffold.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LhLoveZgg/kola-scaffold/issues"
+  },
+  "homepage": "https://github.com/LhLoveZgg/kola-scaffold#readme",
+  "bin": {
+    "kolar": "./bin/main.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "inquirer": "^8.0.0"
+  }
+}
