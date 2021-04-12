@@ -18,7 +18,7 @@ const question = [
         message:'初始化新项目?'
     },
     {
-        name:'pro_name',
+        name:'name',
         message:'请输入项目名称',
         type: 'input',
         when: res => Boolean(res.init) /* 是否进行 */
@@ -28,13 +28,19 @@ const question = [
         message:'请选择模版',
         type: 'list',
         choices: ['react', 'vue'],
-        when: res => Boolean(res.pro_name) /* 是否进行 */
+        when: res => Boolean(res.name) /* 是否进行 */
+    },
+    {
+        name:'description',
+        message:'请输入项目描述',
+        type: 'input',
+        when: res => Boolean(res.template) /* 是否进行 */
     },
     {
         name:'author',
         message:'请输入作者',
         type: 'input',
-        when: res => Boolean(res.template) /* 是否进行 */
+        when: res => Boolean(res.description) /* 是否进行 */
     },
     {
         name:'email',
